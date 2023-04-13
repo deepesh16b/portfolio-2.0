@@ -1,0 +1,61 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.4.3",
+    "@heroicons/react": "^1.0.5",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "3d-react-carousal": "^5.0.0",
+    "blob-animated": "^1.2.9",
+    "hamburger-react": "^2.4.1",
+    "kute.js": "^2.2.2",
+    "react": "^17.0.2",
+    "react-animated-text": "^0.1.4",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-multi-carousel": "^2.8.0",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.5",
+    "react-type-animation": "^2.1.2",
+    "web-vitals": "^2.1.4",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server",
+    "dev": "run-p server start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.19"
+  }
+}
