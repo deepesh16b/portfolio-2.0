@@ -72,7 +72,7 @@ function App() {
     <main className=' '>
 
       <Navigation textColor={` ${theme === 'dark' ? 'text-accentd' : 'text-primaryl'}`} divbg={` ${theme === 'dark' ? 'bg-secondaryd' : 'bg-lilac'} `} setCurrentPage={setCurrentPage} />
-      <button className={`text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2 absolute top-2 right-0 mt-2 md:top-1 md:right-4 lg:right-8 xl:right-16 2xl:right-24 ${theme === 'dark' ? 'text-white ' : 'text-black'}`}
+      <button className={`text-2xl font-extrabold hover:text-light-blue/25 rounded-lg px-2 absolute top-2 right-0 mt-7 md:top-1 md:right-4 lg:right-8 xl:right-16 2xl:right-24 ${theme === 'dark' ? 'text-white ' : 'text-black'}`}
         onClick={() => theme === 'dark' ? setTheme('light') : setTheme('dark')}> {theme === 'dark' ? <BsSun /> : <BsFillMoonStarsFill />}</button>
 
       <div className={`bg-cover ${theme === 'dark' ? 'bg-wave' : 'bg-waveLight'} `} >
