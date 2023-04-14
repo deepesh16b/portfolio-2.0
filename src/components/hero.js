@@ -16,7 +16,7 @@ const Hero = (props) => {
                 <div className="flex flex-col text-center items-center mb-12 md:items-start ">
 
 
-                    <h2 className={`text-4xl md:text-5xl font-extrabold my-2 ${props.nameColor}`}>{content.header.text}</h2>
+                    <h2 className={`text-4xl md:text-6xl font-extrabold my-2 ${props.nameColor}`}>{content.header.text}</h2>
                     <TypeAnimation
                         sequence={content.header.typical}
                         repeat={Infinity}
@@ -24,7 +24,7 @@ const Hero = (props) => {
                         wrapper="h2"
                         className={`text-4xl font-semibold my-2  ${props.animateColor}`}
                     />
-                    <h2 className={`text-4xl font-semibold my-2  ${props.animateColor} animate-typing text-start`}></h2>
+                    <h2 className={`text-4xl font-semibold my-2  ${props.animateColor} animate-typing text-start`}> </h2>
                     <div className='flex'>
 
                         <div onClick={() => props.setCurrentPage('project')}>

@@ -1,4 +1,4 @@
-import dp from '../assets/dp.jpg'
+import dp from '../assets/dp3.jpg'
 import Mongo from '../assets/mongo.png'
 import Node from '../assets/node.png'
 import Express from "../assets/express.png"
@@ -89,7 +89,7 @@ const content = {
                 tech: ["JavaScript ", 'Bootstrap', 'CSS', 'Express', 'MongoDB', 'NodeJS'],
             },
             {
-                title: 'Weather App',
+                title: 'Weather A+pp',
                 img: `${weather}`,
                 git: 'https://github.com/deepesh16b/weather-react-app',
                 live: 'https://weather58.netlify.app/',
