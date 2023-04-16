@@ -1,4 +1,4 @@
-import dp from '../assets/dp3.jpg'
+import dp from '../assets/dp0.png'
 import Mongo from '../assets/mongo.png'
 import Node from '../assets/node.png'
 import Express from "../assets/express.png"
