@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = (props) => {
