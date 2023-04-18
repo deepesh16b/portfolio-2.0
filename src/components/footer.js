@@ -15,6 +15,10 @@ const Footer = (props) => {
                     <BsGithub />
                 </a>
                 </div>
+                <div className='text-5xl  hover:text-light-blue/50 mx-4'><a href="https://www.instagram.com/deepesh_b_16/" target='_blank' rel="noopener noreferrer">
+                    <BsInstagram />
+                </a>
+                </div>
                 <div className='text-5xl  hover:text-light-blue/50 mx-4'><a href="https://www.linkedin.com/in/deepesh16b/" target='_blank' rel="noopener noreferrer">
                     <BsLinkedin />
                 </a>
