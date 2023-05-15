@@ -8,6 +8,7 @@ import blog from '../assets/blog1.png';
 import newsletter from '../assets/newsletter.png';
 // import bangerGIF from '../assets/bangeralert.gif'
 import netflix from '../assets/netflix.jpeg'
+import flipkart from '../assets/flipkart.png'
 // import CollectURL from '../assets/CollectURL.gif'
 const content = {
     nav: {
@@ -62,6 +63,15 @@ const content = {
     project: {
         title: 'Projects',
         data: [
+             {
+                //use this desc size as template no longer
+                title: 'Flipkart Clone',
+                img: `${flipkart}`,
+                git: 'https://github.com/deepesh16b/flipkart-clone',
+                live: 'https://flipkart3.netlify.app/',
+                desc: "Flipkart clone is developed using NodeJs, ExpressJs, ReactJS, Redux. Mongodb is implemented to manage user’s data.Material UI Framework for React is used which contains predefined customisable components. ",
+                tech: ["MongoDB", "ExpressJs", "NodeJs", "ReactJs", 'Redux','Material UI Framework', 'Axios'],
+            },
             {
                 //use this desc size as template no longer
                 title: 'Netflix Clone',
