@@ -99,7 +99,7 @@ const content = {
                 tech: ["JavaScript ", 'Bootstrap', 'CSS', 'Express', 'MongoDB', 'NodeJS'],
             },
             {
-                title: 'Weather A+pp',
+                title: 'Weather App',
                 img: `${weather}`,
                 git: 'https://github.com/deepesh16b/weather-react-app',
                 live: 'https://weather58.netlify.app/',
