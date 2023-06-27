@@ -79,7 +79,7 @@ const content = {
                 git: 'https://github.com/deepesh16b/Netflix-Clone',
                 live: 'https://netflix-29a21.web.app/',
                 desc: "Netflix clone is developed using ReactJS, Webhooks, Redux & Google Auth. Firestore is implemented to manage user’s data.Themoviedb API is  utilized to retrieve information on movies",
-                tech: ["React", "JavaScript ", 'Redux','TMDB Api',  'Firebase', 'FireStore', 'Axios'],
+                tech: ["React", 'Redux', 'YouTube Data Api' , 'TMDB Api',  'Firebase', 'FireStore', 'Axios'],
             },
             {
                 //use this desc size as template no longer
