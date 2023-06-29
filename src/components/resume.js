@@ -1,5 +1,5 @@
 import React from "react";
-import pdfResume from '../assets/deepesh_resume_14-4-23.pdf'
+import pdfResume from 'https://drive.google.com/drive/folders/1ZgzPtKQj_j0xWCj6O85AkhMDjQaTQsE2?usp=sharing'
 import { useState } from "react";
 import content from '../content';
 import Button from "./button";
