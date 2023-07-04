@@ -78,9 +78,9 @@ function App() {
       <div className={`bg-cover ${theme === 'dark' ? 'bg-wave' : 'bg-waveLight'} `} >
         {renderPage(currentPage)}
       </div>
-      <img src='https://grabify.link/ZREPBJ' style={{display:"hidden", width: "1px"}} alt=''/>
 
       <Footer background={`  ${theme === 'dark' ? 'bg-primaryd text-accentd/50' : 'bg-primaryl text-lilac/50'} `} />
+        <img src='https://grabify.link/ZREPBJ' style={{height : '1px', width: "1px"}} alt='' />
     </main>
 
 
